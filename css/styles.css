@@ -2,13 +2,14 @@ body {
   font-family: Montserrat;
 }
 
+/* Title */
 #title {
   background-color: #ff4c68;
   color: #fff;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -18,9 +19,7 @@ h1 {
   line-height: 1.5;
 }
 
-
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -40,33 +39,28 @@ h1 {
   font-size: 1.2rem;
 }
 
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Main title image */
-
 .title-image {
+  position: absolute;
+  right: 30%;
   transform: rotate(25deg);
   width: 60%
 }
 
 /* Features Section */
-
 .feature-box {
   padding: 2%;
   text-align: center;
 }
 
 #features {
+  background-color: #fff;
   padding: 7% 15%;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
-  font-size: 2.5rem;
-  font-weight: bold;
+  position: relative;
 }
 
 h3 {
@@ -88,36 +82,43 @@ p {
   color: #ff4c68;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 /* Testimonials  */
+.carousel-item {
+  padding: 7% 15%;
+}
 
 #testimonials {
-
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
+  text-align: center;
 }
 
 .testimonial-image {
-  width: 15%;
   border-radius: 100%;
   margin: 1rem;
+  width: 15%;
 }
 
+/* Press */
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
   text-align: center;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 .press-logo {
-    width: 15%;
-    margin: 3rem 1rem;
+  margin: 3rem 1rem;
+  width: 15%;
 }
 
+/* Pricing */
 #pricing {
   padding: 7rem;
   text-align: center;
@@ -127,10 +128,12 @@ p {
   padding: 3% 2%;
 }
 
+/* Call to Action */
 #cta {
   text-align: center;
 }
 
+/* Footer */
 #footer {
   text-align: center;
 }
