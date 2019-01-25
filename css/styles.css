@@ -137,3 +137,15 @@ h2 {
 #footer {
   text-align: center;
 }
+
+/* Media Queries */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
