@@ -1,22 +1,30 @@
 body {
-  font-family: Montserrat;
-}
-
-/* Title */
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.container-fluid {
-  padding: 3% 15% 7%;
-}
-
-h1 {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
   font-size: 3rem;
   font-weight: 900;
   line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -44,6 +52,17 @@ h1 {
   margin: 5% 3% 5% 0;
 }
 
+/* Title */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 /* Main title image */
 .title-image {
   position: absolute;
@@ -55,23 +74,15 @@ h1 {
 /* Features Section */
 .feature-box {
   padding: 2%;
-  text-align: center;
 }
 
 #features {
   background-color: #fff;
-  padding: 7% 15%;
   position: relative;
 }
 
-h3 {
-  font-family: "Montserrat", sans-serif;
+.feature-title {
   font-size: 1.5rem;
-  font-weight: bold;
-}
-
-p {
-  color: #8f8f8f;
 }
 
 .icon {
@@ -83,22 +94,15 @@ p {
   color: #ff4c68;
 }
 
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  font-weight: bold;
-  line-height: 1.5;
-}
-
 /* Testimonials  */
-.carousel-item {
-  padding: 7% 15%;
-}
-
 #testimonials {
   background-color: #ef8172;
   color: #fff;
-  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -111,7 +115,6 @@ h2 {
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
-  text-align: center;
 }
 
 .press-logo {
@@ -122,7 +125,11 @@ h2 {
 /* Pricing */
 #pricing {
   padding: 7rem;
-  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
@@ -133,16 +140,9 @@ h2 {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
-  text-align: center;
 }
 
 /* Footer */
-#footer {
-  padding: 7% 15%;
-  text-align: center;
-}
-
 .social-icon {
   margin: 20px 10px;
 }
